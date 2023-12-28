@@ -109,7 +109,7 @@ ddev launch
     ```bash
     mkdir my-drupal10-site
     cd my-drupal10-site
-    ddev config --project-type=drupal10 --docroot=web
+    ddev config --project-type=drupal10 --docroot=web --create-docroot
     ddev start
     ddev composer create drupal/recommended-project
     ddev composer require drush/drush
